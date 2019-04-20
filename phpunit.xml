@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        bootstrap="./vendor/autoload.php"
+        colors="true"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        beStrictAboutChangesToGlobalState="true"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        beStrictAboutTodoAnnotatedTests="true"
+        failOnRisky="true"
+        failOnWarning="true"
+>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="unit">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
