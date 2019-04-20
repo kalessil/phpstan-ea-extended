@@ -4,6 +4,6 @@ An evaluation of "what-if".
 
 # notes
 
-- apparently node has no parent and children access, how to get to them?
-- PHPStan\Broker\Broker seems to be analog of project index, is it?
-- testing on fixtures?
+- parent, siblings and etc access: https://github.com/nikic/PHP-Parser/blob/master/doc/component/FAQ.markdown
+- project index analog: PHPStan\Broker\Broker
+- testing on fixtures: $this->analyse(file, ...) when \PHPStan\Testing\RuleTestCase has been extended
