@@ -6,19 +6,9 @@ use PhpParser\Node;
 use PhpParser\Node\Stmt\Class_;
 use PHPStan\Analyser\Scope;
 use PHPStan\Rules\Rule;
-use PHPStan\Type\VerbosityLevel;
-use PHPStan\Broker\Broker;
 
 class TheRuleToRuleThemAll implements Rule
 {
-    /** @var Broker */
-    private $broker;
-
-    public function __construct(Broker $broker)
-    {
-        $this->broker = $broker;
-    }
-
     /** @inheritdoc */
     public function getNodeType(): string
     {

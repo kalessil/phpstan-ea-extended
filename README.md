@@ -6,3 +6,4 @@ An evaluation of "what-if".
 
 - apparently node has no parent and children access, how to get to them?
 - PHPStan\Broker\Broker seems to be analog of project index, is it?
+- testing on fixtures?
