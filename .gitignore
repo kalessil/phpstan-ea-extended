@@ -1,3 +1,5 @@
 /.vagrant
 /html
 /ubuntu-*
+/vendor
+/composer.lock

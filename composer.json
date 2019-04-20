@@ -1,0 +1,15 @@
+{
+  "name":    "kalessil/phpstan-ea-extended",
+  "license": "proprietary",
+
+  "config": {
+    "optimize-autoloader":    true,
+    "classmap-authoritative": true
+  },
+
+  "require": {
+    "php":              "~7.1",
+    "nikic/php-parser": "^4.0",
+    "phpstan/phpstan":  "^0.11"
+  }
+}
