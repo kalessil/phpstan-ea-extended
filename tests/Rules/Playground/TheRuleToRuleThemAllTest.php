@@ -15,7 +15,7 @@ final class TheRuleToRuleThemAllTest extends RuleTestCase
     public function testIfFindsPatterns(): void
     {
         $this->analyse([__DIR__ . '/data/Clazz.php'], [
-            ['Found class "Package\Layer\Clazz" in "/var/www/tests/Rules/Playground/data/Clazz.php".', 3]
+            ['Found class "Package\Layer\Clazz" in "/var/www/tests/Rules/Playground/data/Clazz.php".', 5]
         ]);
     }
 }
