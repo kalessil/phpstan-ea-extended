@@ -7,7 +7,8 @@
     "classmap-authoritative": true
   },
 
-  "autoload": { "psr-4": { "PHPStan\\": "src/" } },
+  "autoload":     { "psr-4": { "PHPStan\\": "src/" } },
+  "autoload-dev": { "classmap": [ "tests/" ] },
 
   "require": {
     "php":              "~7.1",
